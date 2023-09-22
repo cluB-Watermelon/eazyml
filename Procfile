@@ -1,0 +1,1 @@
+web: gunicorn eazyml.wsgi –log-file -
