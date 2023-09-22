@@ -1,0 +1,32 @@
+{% extends "base_page.html" %}
+
+{% block content %}
+
+<h1 class="main-text">Past Results</h1>
+<div id="id-table-history">
+	<table border = '2' class = "table table-dark table-hover">
+		<thead>
+			<tr>
+				<th>Model Type</th>
+				<th>Best Params Names</th>
+				<th>Best Params Values</th>
+				<th>Train Results</th>
+				<th>Test Results</th>
+				<th>Used Metric Results</th>
+			</tr>
+		</thead>
+		{% for i in data %}
+			<tr>
+				<td>{{ i.model_type }}</td>
+				<td>{{ i.best_params_names }}</td>
+				<td>{{ i.best_params_values}}</td>
+				<td>{{ i.best_train_results }}</td>
+				<td>{{ i.best_test_results }}</td>
+				<td>{{ i.used_metric_results }}</td>
+			</tr>
+		{% endfor %}
+	</table>
+<a href = "{% url 'home:home' %}" class="btn btn-secondary">Go back to home</a>
+</div>
+
+{% endblock %}
