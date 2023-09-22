@@ -1,0 +1,77 @@
+body{
+	background-color: #3e4451;
+}
+
+.table{
+	margin-right: 20px;
+}
+
+.main-text{
+	margin-left: 20px;
+	color: whitesmoke;
+}
+
+.navbar{
+	background-color: #5FE88D; 
+	margin-bottom: 20px; 
+	border-bottom-left-radius: 15px; 
+	border-bottom-right-radius: 15px;
+}
+
+.btn{
+	margin-bottom: 20px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.navbar-brand{
+	font-size: 30px;
+	color: #3e4451;
+}
+
+.navbar-top-right{
+	margin-right: 10px;
+}
+
+.container-result{
+	display: flex;
+	justify-content: center;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	color: whitesmoke;
+	padding-left: 20px;
+}
+
+#id-table-history{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+#id-disp-results{
+	margin-top: 200px;
+	padding-top: 30px;
+	color: #3e4451;
+	background-color: #5FE88D; 
+	width: 800px; 
+	border-radius: 75px;
+	text-align: center;
+}
+
+#results-home-btn{
+	margin-top: 30px;	
+}
+
+#id-disp-results .btn{
+	justify-self: center;
+	margin-top: 20px;
+}
+
+#username-disp{
+	color: whitesmoke;
+}
