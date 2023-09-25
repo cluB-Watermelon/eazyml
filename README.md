@@ -21,4 +21,4 @@ To run locally:
 1. Clone this repo.
 2. Run the command "pip install -r requirements.txt"
 3. Run the command "python manage.py check" to check if everything is set up correctly.
-4. Finally run "python manage.py runserver" and then go to the address 127.0.0.1:8000 on your server.
+4. Finally run "python manage.py runserver" and then go to the address 127.0.0.1:8000/home on your browser.
